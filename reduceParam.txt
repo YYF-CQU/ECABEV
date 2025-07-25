@@ -1,0 +1,21 @@
+改前
+Trainable parameters: 24360562
+Non-trainable parameters: 22056192
+Total parameters (trainable + fixed) 46416754
+
+segnet_transformer_lift_fuse_new_decoders.py
+DinoAdapter----embed_dim=96
+-500MB
+Trainable parameters: 19871650
+Non-trainable parameters: 1532736
+Total parameters (trainable + fixed) 21404386
+
+train.py
+SegnetTransformerLiftFuse----latent_dim=64---DeBug
+Trainable parameters: 16652530
+Non-trainable parameters: 22056192
+Total parameters (trainable + fixed) 38708722
+---
+segnet_simple_lift_fuse_ablation_new_decoders.py
+class FeatureEncoderDecoder:
+self.skip_conv1 = nn.Sequential(nn.Conv2d(64, shared_out_channels
